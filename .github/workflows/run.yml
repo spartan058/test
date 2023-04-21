@@ -1,4 +1,4 @@
-name: GLaDOS-checkin
+name: test
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
     - cron: "33 */12 * * *"
 
 jobs:
-  GLaDOS-checkin:
+  test:
     runs-on: ubuntu-latest
 
     steps:
